@@ -1,4 +1,4 @@
-# Racing-Fury 2D Car Game
+# Racing-Fury 2D Car Game!
 
 This is a 2D car game which is developed in Python using Pygame.
 
