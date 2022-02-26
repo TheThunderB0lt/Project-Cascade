@@ -35,3 +35,11 @@ satisfied and these include :
  - Move Leftt : A
  - Accelerator : W
  - Brake : D
+ 
+Function used:
+
+pygame.init(): This command is used to initiate the pygame module.
+pygame.display.set_mode((500,500)): This command is used to make a window of desired size, (width, height). The return value is a Surface Object which is the object where we perform different graphical operations.
+pygame.display.set_caption(title = “”): This command is used to set the title of the window/ board.
+pygame.event.get(): This is used to empty the event queue. If we do not call this, the window messages will start to pile up and, the game will become unresponsive in the opinion of the operating system.
+pygame.QUIT: This is used to terminate the event when we click on the close button at the corner of the window.
